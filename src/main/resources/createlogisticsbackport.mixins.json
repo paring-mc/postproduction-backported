@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.paring.createlogisticsbackport.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "createlogisticsbackport.refmap.json",
+  "mixins": [
+    "BasinInventoryMixin",
+    "BlueprintOverlayRendererAccessor",
+    "ClipboardEntryMixin",
+    "CreateMixin",
+    "DisplayLinkBlockEntityMixin",
+    "FilteringBehaviourAccessor",
+    "FilterMenuAccessor",
+    "GlobalStationMixin",
+    "MechanicalCrafterBlockEntityAccessor",
+    "OutlinerAccessor",
+    "ScheduleRuntimeAccessor",
+    "ScheduleRuntimeMixin",
+    "SmartBlockEntityRendererMixin",
+    "StateHolderAccessor",
+    "StationBlockEntityMixin",
+    "TrainMixin",
+    "UIRenderHelperAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

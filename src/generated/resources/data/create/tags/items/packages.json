@@ -1,0 +1,12 @@
+{
+  "values": [
+    "create:cardboard_package_12x12",
+    "create:cardboard_package_10x12",
+    "create:cardboard_package_10x8",
+    "create:cardboard_package_12x10",
+    "create:rare_kryppers_package",
+    "create:rare_jinx_package",
+    "create:rare_creeper_package",
+    "create:rare_simi_package"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "cardboard_bonk": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create:cardboard_bonk"
+      }
+    ],
+    "subtitle": "create.subtitle.cardboard_bonk"
+  },
+  "confirm_2": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create:confirm_2"
+      }
+    ],
+    "subtitle": "create.subtitle.confirm_2"
+  },
+  "frogport_catch": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create:frogport_catch"
+      },
+      {
+        "type": "file",
+        "name": "create:frogport_catch_1"
+      },
+      {
+        "type": "file",
+        "name": "create:frogport_catch_2"
+      },
+      {
+        "type": "file",
+        "name": "create:frogport_catch_3"
+      }
+    ],
+    "subtitle": "create.subtitle.frogport_catch"
+  },
+  "frogport_close": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "create:frogport_close"
+      }
+    ],
+    "subtitle": "create.subtitle.frogport_close"
+  },
+  "frogport_deposit": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.frog.tongue"
+      }
+    ],
+    "subtitle": "create.subtitle.frogport_deposit"
+  },
+  "frogport_open": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.warden.tendril_clicks"
+      }
+    ],
+    "subtitle": "create.subtitle.frogport_open"
+  }
+}

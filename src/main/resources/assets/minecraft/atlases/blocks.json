@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "create:entity/logistics_hat"
+    }
+  ]
+}
