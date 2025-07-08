@@ -1,0 +1,58 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.paring.createlogisticsbackport.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "postproduction_backported.refmap.json",
+  "mixins": [
+    "AbstractChuteBlockMixin",
+    "AttributeFilterMenuAccessor",
+    "BasinInventoryMixin",
+    "BeltBlockMixin",
+    "BeltRendererMixin",
+    "BlazeBurnerBlockEntityAccessor",
+    "BlazeBurnerBlockEntityMixin",
+    "BlazeBurnerBlockMixin",
+    "BlazeBurnerRendererMixin",
+    "BlockLootSubProviderAccessor",
+    "BrassDiodeBlockEntityAccessor",
+    "BrassDiodeBlockEntityMixin",
+    "BrassDiodeBlockMixin",
+    "ClipboardBlockItemMixin",
+    "ClipboardEntryMixin",
+    "ConnectedInputAccessor",
+    "CreateMixin",
+    "DepotRendererMixin",
+    "DisplayLinkBlockEntityMixin",
+    "FilteringBehaviourAccessor",
+    "FilterItemMixin",
+    "FilterItemStackMixin",
+    "FilterMenuAccessor",
+    "FunnelBlockMixin",
+    "GlobalStationMixin",
+    "ItemModelGeneratorsAccessor",
+    "ItemVaultBlockEntityMixin",
+    "MechanicalCrafterBlockEntityAccessor",
+    "OutlinerAccessor",
+    "ScheduleMixin",
+    "ScheduleRuntimeAccessor",
+    "ScheduleRuntimeMixin",
+    "SmartBlockEntityAccessor",
+    "SmartBlockEntityMixin",
+    "SmartBlockEntityRendererMixin",
+    "StateHolderAccessor",
+    "StationBlockEntityMixin",
+    "TrainMixin",
+    "UIRenderHelperAccessor"
+  ],
+  "client": [
+    "ClipboardScreenMixin",
+    "HumanoidModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

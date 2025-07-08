@@ -1,0 +1,5 @@
+# Blender 4.1.1 MTL File: 'conveyor.blend'
+# www.blender.org
+
+newmtl casing
+map_Kd #conveyor_casing
