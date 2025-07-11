@@ -35,7 +35,9 @@ public class ExtraItems {
         Create.REGISTRATE.setCreativeTab(AllCreativeModeTabs.BASE_CREATIVE_TAB);
     }
 
-    public static final ItemEntry<Item> PULP = ingredient("pulp");
+    public static final ItemEntry<Item>
+            PULP = ingredient("pulp"),
+            TRANSMITTER = ingredient("transmitter");
 
     public static final ItemEntry<CombustibleItem> CARDBOARD = REGISTRATE.item("cardboard", CombustibleItem::new).tag(forgeItemTag("plates/cardboard"), PLATES.tag).onRegister(i -> i.setBurnTime(1000)).register();
 
