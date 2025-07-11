@@ -8,6 +8,10 @@ Bring new features from Create 6 to Create 0.5.1.j!
 
 ## DISCLAIMER
 
+**THIS IS AN UNOFFICIAL BACKPORT OF CREATE MOD**
+
+I'm *NOT* affiliated with Create authors.
+
 Use at your own risk. This mod modifies Create's built-in registry for add contents(to make world migration to Create 6 possible), and some of the features can be unstable and not tested well. I recommend you to make a backup of your world before adding this mod.
 
 ## NOT PLANNED THINGS
