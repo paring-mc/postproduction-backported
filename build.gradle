@@ -150,6 +150,8 @@ repositories {
         url = 'https://modmaven.dev/'
     }
 
+    maven { url = "https://api.modrinth.com/maven" }
+
     maven {
         // location of maven for CC: Tweaked
         name = "squiddev"
@@ -178,6 +180,8 @@ dependencies {
     compileOnly("cc.tweaked:cc-tweaked-${cc_tweaked_minecraft_version}-core-api:${cc_tweaked_version}")
     compileOnly fg.deobf("cc.tweaked:cc-tweaked-${cc_tweaked_minecraft_version}-forge-api:${cc_tweaked_version}")
     runtimeOnly fg.deobf("cc.tweaked:cc-tweaked-${cc_tweaked_minecraft_version}-forge:${cc_tweaked_version}")
+
+    implementation fg.deobf("maven.modrinth:jade:${jade_version}")
 
 //    implementation fg.deobf("net.createmod.catnip:Catnip-Forge-1.20.1:0.8.44")
 
