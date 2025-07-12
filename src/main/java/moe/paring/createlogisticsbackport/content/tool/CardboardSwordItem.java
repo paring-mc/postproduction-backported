@@ -5,6 +5,7 @@ import com.simibubi.create.AllPackets;
 import com.simibubi.create.AllSoundEvents;
 import com.simibubi.create.foundation.item.render.SimpleCustomRenderer;
 import moe.paring.createlogisticsbackport.registry.ExtraItems;
+import moe.paring.createlogisticsbackport.registry.ExtraPackets;
 import moe.paring.createlogisticsbackport.registry.ExtraSoundEvents;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.Mth;
@@ -119,7 +120,7 @@ public class CardboardSwordItem extends SwordItem {
 		MobCategory targetType = target.getClassification(false);
 
 		if (target instanceof ServerPlayer sp)
-			AllPackets.getChannel()
+			ExtraPackets.getChannel()
 				.send(PacketDistributor.PLAYER.with(() -> sp), new KnockbackPacket(yRot, (float) knockbackStrength));
 
 		if ((targetType == MobCategory.MISC || targetType == MobCategory.CREATURE) && !targetIsPlayer)
