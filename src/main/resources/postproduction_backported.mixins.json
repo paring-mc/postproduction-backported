@@ -20,6 +20,7 @@
     "BrassDiodeBlockMixin",
     "ClipboardBlockItemMixin",
     "ClipboardEntryMixin",
+    "ComputerBehaviourMixin",
     "ConnectedInputAccessor",
     "CreateMixin",
     "DepotRendererMixin",
