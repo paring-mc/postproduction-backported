@@ -38,6 +38,7 @@
     "ScheduleMixin",
     "ScheduleRuntimeAccessor",
     "ScheduleRuntimeMixin",
+    "SlidingDoorMovementBehaviourMixin",
     "SmartBlockEntityAccessor",
     "SmartBlockEntityMixin",
     "SmartBlockEntityRendererMixin",
