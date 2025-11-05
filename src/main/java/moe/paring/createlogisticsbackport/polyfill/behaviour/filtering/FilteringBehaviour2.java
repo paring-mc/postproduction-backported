@@ -14,6 +14,7 @@ import com.simibubi.create.foundation.utility.Iterate;
 import com.simibubi.create.foundation.utility.Lang;
 import com.simibubi.create.foundation.utility.VecHelper;
 import com.simibubi.create.infrastructure.config.AllConfigs;
+import moe.paring.createlogisticsbackport.content.logistics.filter.FilterItem2;
 import moe.paring.createlogisticsbackport.polyfill.behaviour.ValueBoxTransform2;
 import moe.paring.createlogisticsbackport.polyfill.behaviour.ValueSettingsBehaviour2;
 import moe.paring.createlogisticsbackport.polyfill.behaviour.ValueSettingsBoard2;
@@ -296,6 +297,8 @@ public class FilteringBehaviour2 extends BlockEntityBehaviour implements ValueSe
         }
 
         if (toApply.getItem() instanceof FilterItem)
+            toApply.setCount(1);
+        if (toApply.getItem() instanceof FilterItem2)
             toApply.setCount(1);
 
         if (!setFilter(side, toApply)) {

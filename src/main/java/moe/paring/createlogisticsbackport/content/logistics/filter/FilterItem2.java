@@ -43,7 +43,6 @@ import java.util.List;
 import java.util.Objects;
 
 public class FilterItem2 extends Item implements MenuProvider, SupportsItemCopying {
-
     private FilterType type;
 
     private enum FilterType {

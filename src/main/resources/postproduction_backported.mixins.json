@@ -26,6 +26,7 @@
     "DepotRendererMixin",
     "DisplayLinkBlockEntityMixin",
     "FilteringBehaviourAccessor",
+    "FilteringBehaviourMixin",
     "FilterItemMixin",
     "FilterItemStackMixin",
     "FilterMenuAccessor",
